@@ -15,9 +15,8 @@ const PLANNINGCONATINER = styled.div`
 
   .bodydivcontainer {
     display: flex;
-
+    margin:4vh 0 1vh 0;
     .description1 {
-      margin-top: -15px;
       font-size: 13px;
       color: gray;
       font-weight: 600;
@@ -26,15 +25,14 @@ const PLANNINGCONATINER = styled.div`
     .myselfcontainer {
       border: 1px solid gray;
       width: 150px;
-      margin: 0 0 0 70px;
-      height: 100px;
-      border-radius:5px;
+      margin: 0 10px 0 6.5vw;
+      border-radius: 5px;
       padding: 20px;
     }
 
     .myselfcontainer:hover {
-      border: 1px solid blue;
-      margin: 0 0 0 70px;
+      border: 1px solid #664de5;
+      margin: 0 10px 0 6.5vw;
       cursor: pointer;
     }
   }
