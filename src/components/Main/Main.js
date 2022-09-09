@@ -9,7 +9,7 @@ import styled from "styled-components";
 const STEPPERCONTAINER = styled.div`
   width: 40%;
   margin: 15vh auto 0 auto;
-  img {
+  .logoimg {
     margin-left: 16vw;
   }
 
@@ -23,7 +23,7 @@ export default function Main() {
   return (
     <div>
       <STEPPERCONTAINER>
-        <img src="/logo.png" alt="" />
+        <img src="/logo.png" alt="" className="logoimg" />
         <Stepper activeStep={createStep}>
           <Step onClick={() => setCreateStep(0)} />
           <Step onClick={() => setCreateStep(1)} />

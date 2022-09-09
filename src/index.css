@@ -28,9 +28,6 @@ code {
   border-radius: 4px;
 }
 
-img{
-  text-align: center;
-}
 
 .btnWorkspace > button:hover {
   cursor: pointer;
@@ -51,4 +48,9 @@ img{
 
 #RFS-StepMain .active {
   background-color: gray;
+}
+
+.divimg{
+  width: 25px;
+  margin-bottom: -10px;
 }
